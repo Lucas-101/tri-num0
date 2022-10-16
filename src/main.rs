@@ -9,10 +9,12 @@ struct Args {
    num: i32,
 }
 
+// Main
 fn main() {
     let args = Args::parse();
     trinum(args.num);
 }
+
 
 fn trinum(f: i32) {
     // Create variables
